@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 const jsxHeading = <h1>Namaste React with JSX</h1>;
 const element = <span>React Element</span>;
 
+// element inside element
 const title = (
   <div>
     {element}
@@ -15,6 +16,7 @@ const title = (
 // Functional component
 const Title = () => <h1>Title</h1>;
 
+// component inside component
 const Heading = () => (
   <div>
     {element}
