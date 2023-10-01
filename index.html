@@ -7,26 +7,9 @@
     <title>Namaste React</title>
   </head>
   <body>
-    <!-- Simple Hello World with HTML -->
     <div id="root">
       <h1>Hello World</h1>
     </div>
-    <!-- Hello world with JS -->
-    <script>
-      const headingJS = document.createElement("h1");
-      headingJS.innerHTML = "Hello World from JS";
-      const div = document.getElementById("root");
-      div.appendChild(headingJS);
-    </script>
-    <!-- Hello World with React -->
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script src="./app.js"></script>
+    <script src="./app.js" type="module"></script>
   </body>
 </html>
