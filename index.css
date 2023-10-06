@@ -1,3 +1,36 @@
-#heading {
-  color: red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0px 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  width: 200px;
+  padding: 10px;
+  align-items: center;
+}
+
+.filter-btn {
+  cursor: pointer;
+  margin: 10px;
 }

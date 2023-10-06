@@ -1,0 +1,19 @@
+import { CDN_URL } from "../utils/constants";
+const RestaurantCard = ({ restaurant }) => {
+  const { name, cloudinaryImageId, cuisines, avgRating } = restaurant;
+  return (
+    <div className="res-card">
+      <img
+        className="res-logo"
+        width={"200px"}
+        height={"200px"}
+        src={CDN_URL + cloudinaryImageId}
+      />
+      <h3>{name}</h3>
+      <h4>{cuisines.toString()}</h4>
+      <h4>{avgRating}</h4>
+    </div>
+  );
+};
+
+export default RestaurantCard;
