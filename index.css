@@ -27,10 +27,27 @@
 .res-card {
   width: 200px;
   padding: 10px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
 }
 
 .filter-btn {
   cursor: pointer;
+  margin-left: 10px;
+}
+
+.shimmer-container {
+  display: flex;
+}
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  background-color: gray;
   margin: 10px;
+}
+
+.filter {
+  display: flex;
+  padding: 10px;
 }
